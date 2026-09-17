@@ -1,0 +1,16 @@
+{
+  "name": "skillbridge",
+  "version": "1.0.0",
+  "description": "SkillBridge - Portal for Academia–Industry Collaboration for Skill Mapping, Internships and Placement (SIH26044)",
+  "scripts": {
+    "dev": "concurrently \"npm --prefix server run dev\" \"npm --prefix client run dev\"",
+    "start": "npm --prefix server start",
+    "seed": "npm --prefix server run seed",
+    "install:all": "npm install && npm --prefix server install && npm --prefix client install"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.4"
+  },
+  "author": "SkillBridge Team",
+  "license": "ISC"
+}
